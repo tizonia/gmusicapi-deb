@@ -33,10 +33,12 @@ its dependencies, using Debian's apt-get instead of 'pip'.
 
 ## Pre-requisites
 
-At the time of writting, gmusicapi depends on two other Python libraries for
-which there is no corresponding Debian package available in the Debian or
+At the time of writing, 'gmusicapi' depends on two other Python libraries for
+which there are no corresponding Debian packages available in the Debian or
 Ubuntu repositories. These two Python libraries are:
 - 'gpsoauth' : https://github.com/simon-weber/gpsoauth
 - 'MechanicalSoup' : https://github.com/hickford/MechanicalSoup
 
-These two libraries are similarly packaged by Tizonia.
+These two libraries are similarly packaged by Tizonia. See:
+- https://github.com/tizonia/gpsoauth-deb
+- https://github.com/tizonia/mechanicalsoup-deb
