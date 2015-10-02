@@ -1,0 +1,46 @@
+Source: gmusicapi
+Maintainer: Juan A. Rubio <juan.rubio@aratelia.com>
+Section: python
+Priority: optional
+Build-Depends: debhelper (>= 7),
+               python-setuptools (>= 0.6b3),
+               python-all (>= 2.6.6-3),
+               python-sphinx (>= 1.0.7+dfsg),
+	       python-validictory, 
+	       python-decorator, 
+	       python-mutagen,
+	       python-protobuf,
+	       python-requests,
+	       python-dateutil,
+	       python-proboscis,
+	       python-oauth2client, 
+	       python-mock,
+	       python-appdirs,
+	       python-gpsoauth,
+	       python-mechanicalsoup,
+	       python-openssl,
+	       python-ndg-httpsclient,
+	       python-pyasn1
+Standards-Version: 3.9.1
+Homepage: https://github.com/simon-weber/gmusicapi
+Vcs-Git: git://github.com/tizonia/gmusicapi-deb.git
+Vcs-Browser: https://github.com/tizonia/gmusicapi-deb
+X-Python-Version: >= 2.7
+
+Package: python-gmusicapi
+Architecture: all
+Depends: ${misc:Depends}, ${python:Depends}
+Description: Google Play Music Unofficial API
+ Google Play Music API written in Python that allows
+ control of the Google Play Music streaming service.
+ .
+ All major functionality is supported, including user's
+ library management (list, create, delete, and modify
+ songs and playlists), streaming and single-song downloading,
+ music manager uploading/scan-and-match and library downloading.
+ .
+ Most All Access features are also supported.
+ .
+ This project is not supported nor endorsed by Google.
+ .
+ This package contains the gmusicapi Python module.
