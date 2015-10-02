@@ -14,22 +14,22 @@ its dependencies, using Debian's apt-get instead of 'pip'.
 1. Download the 'gmusicapi' git repo and install all the necessary Debian
    development packages. To do this, just run the supplied bootstrap script
    with a valid 'gmusicapi' git tag. E.g.:
-```bash
+   ```bash
 
-    $ ./bootstrap.sh 7.0.0
+        $ ./bootstrap.sh 7.0.0
 
-```
+   ```
+
 2. Now run the usual autotools sequence to configure, build, install and
    uninstall the 'python-gmusicapi' Debian package.
+   ```bash
 
-```bash
+        $ ./configure
+        $ make
+        $ make install
+        $ make uninstall
 
-    $ ./configure
-    $ make
-    $ make install
-    $ make uninstall
-
-```
+   ```
 
 ## Pre-requisites
 
